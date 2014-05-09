@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#background {
+	width:100%; 
+	height:100%; 
+	position:fixed; 
+	left:0px; 
+	top:0px; 
+	z-index: -1;
+}
+
+#headline {
+	font-size:250%;
+	text-align:center;
+	font-weight:bold;
+	color:#cc5500;
+	font-family:'Arial Black', Gadget, sans-serif;
+	padding-top:17%;
+	width:100%;
+}
+
+#headline a:link {
+	text-decoration:none;
+	font-weight:bold;
+	color:#cc5500;
+}
+#headline a:visited {
+	text-decoration:none;
+	font-weight:bold;
+	color:#cc5500;
+}
+
+#headline a:hover {
+	text-decoration:underline;
+	font-weight:bold;
+	color:#cc5500;
+}
+
+#countdown {
+	text-align:center;
+	font-weight:bold;
+	color:#cc5500;
+	font-size:350%;
+	font-family:'Arial Black', Gadget, sans-serif;
+	margin-top:1em;
+}
+#email {
+	 position:fixed; 
+	 font-weight:bold;
+	 bottom:0;
+	 padding-bottom:2em;
+}
+
+#email a {
+	text-decoration:none;
+	font-weight:bold;
+	font-size:125%;
+	color:#cc5500;
+	font-family:'Arial Black', Gadget, sans-serif;
+	
+}
+
+@media only screen and (max-device-width: 500px) {
+
+#background {
+	width:100%; 
+	height:100%; 
+	position:fixed; 
+	left:0px; 
+	top:0px; 
+	z-index: -1;
+}
+
+#headline {
+	font-size:250%;
+	text-align:center;
+	font-weight:bold;
+	color:#cc5500;
+	font-family:'Arial Black', Gadget, sans-serif;
+	padding-top:35%;
+	padding-left:5%;
+	width:100%;
+}
+
+#countdown {
+	
+	color:#cc5500;
+	font-size:250%;
+	text-align:center;
+	font-weight:bold;
+	font-family:'Arial Black', Gadget, sans-serif;
+	margin-top:1em;
+	padding-left:5%;
+	width:100%;
+}
+#email {
+	 position:fixed;
+	 bottom:0;
+	 padding-bottom:2em;
+	 width:100%;
+}
+
+#email a {
+	text-decoration:none;
+	font-weight:bold;
+	font-size:150%;
+	color:#cc5500;
+	font-family:'Arial Black', Gadget, sans-serif;
+
+}
+
+}
