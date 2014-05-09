@@ -19,5 +19,5 @@ function liner(){
 }
 	
 function fader(){
-	document.getElementById('headline')
+	document.getElementById('container')
 }
