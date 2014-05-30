@@ -10,40 +10,50 @@
 	left:0px; 
 	top:0px; 
 	z-index: -1;
+	opacity:0.90;
 }
 
 #headline {
 	font-size:250%;
 	text-align:center;
 	font-weight:bold;
-	color:#cc5500;
-	font-family:'Arial Black', Gadget, sans-serif;
+	color:#cc3300;
+	font-family: 'Nobile', sans-serif;
 	padding-top:17%;
 	width:100%;
-	cursor: pointer;
+	cursor: pointer; 
 }
 
+#Vheadline {
+	font-size:200%;
+	text-align:center;
+	font-weight:bold;
+	color:#cc3300;
+	font-family: 'Nobile', sans-serif;
+	width:100%;
+}
 /* #headline a:link {
 	text-decoration:none;
 	font-weight:bold;
-	color:#cc5500;
+	color:#cc3300;
 }
 #headline a:visited {
 	text-decoration:none;
 	font-weight:bold;
-	color:#cc5500;
+	color:#cc3300;
 }
 
 #headline a:hover {
 	text-decoration:underline;
 	font-weight:bold;
-	color:#cc5500;
+	color:#cc3300;
 }
 */
+
 #countdown {
 	text-align:center;
 	font-weight:bold;
-	color:#cc5500;
+	color:#cc3300;
 	font-size:350%;
 	font-family:'Arial Black', Gadget, sans-serif;
 	margin-top:1em;
@@ -59,9 +69,40 @@
 	text-decoration:none;
 	font-weight:bold;
 	font-size:125%;
-	color:#cc5500;
+	color:#cc3300;
 	font-family:'Arial Black', Gadget, sans-serif;
 	
+}
+#snark a {
+	position:fixed; 
+	bottom:0;
+	right:0;
+	padding-bottom:2em;
+	padding-right:2em;
+	text-align=right;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:125%;
+	color:#cc3300;
+	font-family:'Arial Black', Gadget, sans-serif;
+}
+
+.number {
+	color:#cc3300;
+	line-height:150%;
+	}
+
+#ivideo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding 0;
+    margin: 0;
+    border: 0;
+    width: 100%; height: 100vh;
+    z-index: -1;
 }
 
 @media only screen and (max-device-width: 500px) {
@@ -79,16 +120,17 @@
 	font-size:250%;
 	text-align:center;
 	font-weight:bold;
-	color:#cc5500;
+	color:#cc3300;
 	font-family:'Arial Black', Gadget, sans-serif;
 	padding-top:35%;
 	padding-left:5%;
 	width:100%;
+	
 }
 
 #countdown {
 	
-	color:#cc5500;
+	color:#cc3300;
 	font-size:250%;
 	text-align:center;
 	font-weight:bold;
@@ -100,6 +142,8 @@
 #email {
 	 position:fixed;
 	 bottom:0;
+	 left:0;
+	 padding-left:2em;
 	 padding-bottom:2em;
 	 width:100%;
 }
@@ -108,9 +152,26 @@
 	text-decoration:none;
 	font-weight:bold;
 	font-size:150%;
-	color:#cc5500;
+	color:#cc3300;
 	font-family:'Arial Black', Gadget, sans-serif;
 
 }
+#snark a {
+	position:fixed; 
+	bottom:0;
+	right:0;
+	padding-bottom:2em;
+	padding-right:2em;
+	text-align=right;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:150%;
+	color:#cc3300;
+	font-family:'Arial Black', Gadget, sans-serif;
+}
+
+.number {
+	color:#cc3300;
+	}
 
 }
