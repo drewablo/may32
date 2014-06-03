@@ -21,17 +21,15 @@
 	font-family: 'Nobile', sans-serif;
 	padding-top:17%;
 	width:100%;
-	cursor: pointer; 
 }
 
-#Vheadline {
-	font-size:200%;
-	text-align:center;
-	font-weight:bold;
-	color:#cc3300;
-	font-family: 'Nobile', sans-serif;
-	width:100%;
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background-size: cover;
 }
+
 /* #headline a:link {
 	text-decoration:none;
 	font-weight:bold;
@@ -173,5 +171,12 @@
 .number {
 	color:#cc3300;
 	}
+	
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background-size: cover;
+}
 
 }
