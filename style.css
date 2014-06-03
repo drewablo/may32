@@ -1,7 +1,70 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media screen and (min-width: 481px){
 
+#front {
+	background: url(thedome2.png) no-repeat bottom left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%; 
+	height:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+#headlineFront {
+	font-size:175%;
+	text-align:left;
+	font-weight:bold;
+	color:#cc3300;
+	font-family: 'Nobile', sans-serif;
+	padding-top:1px;
+	width:100%;
+}	
+
+	
+#hero {
+	
+	display:block-inline;
+	color:#cc3300;
+	padding-left:40%;
+	padding-right:auto;
+	padding-top:5%;
+	color:#cc3300;
+	font-family: 'Nobile', sans-serif;
+
+}
+
+#hero h2 {
+	position:absolute;
+	top: 50%;	
+}
+	
+#hero span {
+	background: rgb(0, 0, 0); /* fallback color */
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px; 
+}
+
+#hero a:link {
+	text-decoration:none;
+	font-weight:bold;
+	color:#cc3300;
+}
+#hero a:hover{
+	text-decoration:underline;
+	font-weight:bold;
+	color:#cc3300;
+}
+
+#hero a:visited{
+	text-decoration:none;
+	font-weight:bold;
+	color:#cc3300;
+}
 
 #background {
 	width:100%; 
@@ -21,6 +84,8 @@
 	font-family: 'Nobile', sans-serif;
 	padding-top:17%;
 	width:100%;
+}
+
 }
 
 video#bgvid {
@@ -46,7 +111,7 @@ background-size: cover;
 	font-weight:bold;
 	color:#cc3300;
 }
-*/
+
 
 #countdown {
 	text-align:center;
@@ -56,6 +121,7 @@ background-size: cover;
 	font-family:'Arial Black', Gadget, sans-serif;
 	margin-top:1em;
 }
+*/
 #email {
 	 position:fixed; 
 	 font-weight:bold;
@@ -87,23 +153,36 @@ background-size: cover;
 
 .number {
 	color:#cc3300;
-	line-height:150%;
+	line-height:125%;
 	}
 
-#ivideo {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding 0;
-    margin: 0;
-    border: 0;
-    width: 100%; height: 100vh;
-    z-index: -1;
 }
 
-@media only screen and (max-device-width: 500px) {
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px){
+#front {
+	background: url(thedome2.png) no-repeat bottom left;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	width:100%; 
+	height:100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+
+#headlineFront {
+	font-size:175%;
+	text-align:left;
+	font-weight:bold;
+	color:#cc3300;
+	font-family: 'Nobile', sans-serif;
+	padding-top:1px;
+	width:100%;
+}	
+
 
 #background {
 	width:100%; 
@@ -170,13 +249,29 @@ background-size: cover;
 
 .number {
 	color:#cc3300;
-	}
+}
 	
 video#bgvid {
-position: fixed; right: 0; bottom: 0;
-min-width: 100%; min-height: 100%;
-width: auto; height: auto; z-index: -100;
-background-size: cover;
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background-size: cover;
+}
+
+#hero {
+	
+	display:none;
+	color:#cc3300;
+	padding-left:33%;
+	padding-right:auto;
+	padding-top:100px;
+	font-family: 'Nobile', sans-serif;
+
+}
+
+#hero h2 {
+	position: relative;
+	top: 10%;	
 }
 
 }
