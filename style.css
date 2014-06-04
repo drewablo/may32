@@ -49,18 +49,18 @@
 	padding: 10px; 
 }
 
-#hero a:link {
+a:link {
 	text-decoration:none;
 	font-weight:bold;
 	color:#cc3300;
 }
-#hero a:hover{
+a:hover{
 	text-decoration:underline;
 	font-weight:bold;
 	color:#cc3300;
 }
 
-#hero a:visited{
+a:visited{
 	text-decoration:none;
 	font-weight:bold;
 	color:#cc3300;
@@ -86,8 +86,40 @@
 	width:100%;
 }
 
+#djangoList {
+	list-style-type:none;
+	font-size:75%;
+
+
+}
+#djangoList li {
+	float: right;
+	padding:1%;	
 }
 
+#GOP {
+	color:#FFF;
+	background: rgb(255, 0, 0); /* fallback color */
+	background: rgba(255, 0, 0, 0.6);
+	padding: 10px; 
+	width:4em;
+	border-style:solid;
+	border-width:5px;
+	border-color:#FF0000
+}
+
+#DEM {
+	color:#FFF;
+	background: rgb(0, 50, 255); /* fallback color */
+	background: rgba(0, 50, 255, 0.6);
+	padding: 10px; 
+	width:4em;
+	border-style:solid;
+	border-width:5px;
+	border-color:#0000FF
+}
+
+/*
 video#bgvid {
 position: fixed; right: 0; bottom: 0;
 min-width: 100%; min-height: 100%;
@@ -95,7 +127,7 @@ width: auto; height: auto; z-index: -100;
 background-size: cover;
 }
 
-/* #headline a:link {
+ #headline a:link {
 	text-decoration:none;
 	font-weight:bold;
 	color:#cc3300;
@@ -121,6 +153,19 @@ background-size: cover;
 	font-family:'Arial Black', Gadget, sans-serif;
 	margin-top:1em;
 }
+#snark a {
+	position:fixed; 
+	bottom:0;
+	right:0;
+	padding-bottom:2em;
+	padding-right:2em;
+	text-align=right;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:125%;
+	color:#cc3300;
+	font-family:'Arial Black', Gadget, sans-serif;
+}
 */
 #email {
 	 position:fixed; 
@@ -137,19 +182,7 @@ background-size: cover;
 	font-family:'Arial Black', Gadget, sans-serif;
 	
 }
-#snark a {
-	position:fixed; 
-	bottom:0;
-	right:0;
-	padding-bottom:2em;
-	padding-right:2em;
-	text-align=right;
-	text-decoration:none;
-	font-weight:bold;
-	font-size:125%;
-	color:#cc3300;
-	font-family:'Arial Black', Gadget, sans-serif;
-}
+
 
 .number {
 	color:#cc3300;
@@ -157,6 +190,8 @@ background-size: cover;
 	}
 
 }
+
+/* MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
 
 @media only screen 
 and (min-device-width : 320px) 
