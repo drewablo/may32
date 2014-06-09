@@ -1,7 +1,7 @@
 @charset "utf-8";
-/* CSS Document */
+/* CSS Document
 
-@media screen and (min-width: 481px){
+@media screen and (min-width: 900px){ */
 
 #front {
 	background: url(thedome2.png) no-repeat bottom left;
@@ -28,7 +28,7 @@
 	
 #hero {
 	
-	display:block-inline;
+	display:inline-block;
 	color:#cc3300;
 	padding-left:40%;
 	padding-right:auto;
@@ -38,11 +38,32 @@
 
 }
 
-#hero h2 {
-	position:absolute;
-	top: 50%;	
+#heroHeadline {
+	position: absolute;
+	top: 0;
+	left: 0;	
+}
+
+
+#heroHeadlineTwo {
+	position: absolute;
+	top: 0;
+	left: 0;	
 }
 	
+#mainImage {
+	display:inline-block;
+	border:10px solid #2A8E82;
+	position: relative;
+}
+
+#secondImage {
+	margin-top: 15px;
+	display:inline-block;
+	border:10px solid #2A8E82;
+	position: relative;
+}	
+
 #hero span {
 	background: rgb(0, 0, 0); /* fallback color */
 	background: rgba(0, 0, 0, 0.7);
@@ -86,39 +107,70 @@ a:visited{
 	width:100%;
 }
 
-#djangoList {
+#djangoListD {
+	float: left;
+	padding-left: 24%;
+	width:38%;
+}
+
+#djangoListR {
+	float: right;
+	width:38%;
+}
+
+#djangoList{
 	list-style-type:none;
 	font-size:75%;
-
-
+	display:none;
 }
+
 #djangoList li {
-	float: right;
+	float: left;
 	padding:1%;	
 }
 
 #GOP {
+	width: 3.75em;
+	height: 3.75em;
+	line-height:3.75em;
+	-moz-border-radius: 3.75em;
+   	border-radius: 3.75em;
+	color:#FFF;
+	text-align: center;
 	color:#FFF;
 	background: rgb(255, 0, 0); /* fallback color */
 	background: rgba(255, 0, 0, 0.6);
-	padding: 10px; 
-	width:4em;
+	padding: 5px; 
 	border-style:solid;
-	border-width:5px;
-	border-color:#FF0000
+	border-width:4px;
+	border-color:#FF0000;
+}
+#GOP:hover {
+	background: rgb(255, 0, 0); /* fallback color */
+	background: rgba(255, 0, 0);
+	cursor:pointer;
 }
 
 #DEM {
+	width: 3.75em;
+	height: 3.75em;
+	line-height:3.75em;
+	-moz-border-radius: 3.75em;
+   	border-radius: 3.75em;
 	color:#FFF;
+	text-align: center;
 	background: rgb(0, 50, 255); /* fallback color */
 	background: rgba(0, 50, 255, 0.6);
-	padding: 10px; 
-	width:4em;
+	padding: 5px; 
 	border-style:solid;
-	border-width:5px;
-	border-color:#0000FF
+	border-width:4px;
+	border-color:#0000FF;
 }
-
+#DEM:hover {
+	background: rgb(0, 50, 255); /* fallback color */
+	background: rgba(0, 50, 255);
+	cursor:pointer;
+}
 /*
 video#bgvid {
 position: fixed; right: 0; bottom: 0;
@@ -187,15 +239,13 @@ background-size: cover;
 .number {
 	color:#cc3300;
 	line-height:125%;
-	}
-
 }
 
-/* MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE */
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px){
+
+/* MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE MOBILE
+
+@media only screen and (min-device-width : 300px) and (max-device-width : 900px){
 #front {
 	background: url(thedome2.png) no-repeat bottom left;
 	-webkit-background-size: cover;
@@ -234,8 +284,7 @@ and (max-device-width : 480px){
 	font-weight:bold;
 	color:#cc3300;
 	font-family:'Arial Black', Gadget, sans-serif;
-	padding-top:35%;
-	padding-left:5%;
+
 	width:100%;
 	
 }
@@ -248,7 +297,7 @@ and (max-device-width : 480px){
 	font-weight:bold;
 	font-family:'Arial Black', Gadget, sans-serif;
 	margin-top:1em;
-	padding-left:5%;
+
 	width:100%;
 }
 #email {
@@ -286,20 +335,13 @@ and (max-device-width : 480px){
 	color:#cc3300;
 }
 	
-video#bgvid {
-	position: fixed; right: 0; bottom: 0;
-	min-width: 100%; min-height: 100%;
-	width: auto; height: auto; z-index: -100;
-	background-size: cover;
-}
 
 #hero {
 	
 	display:none;
 	color:#cc3300;
-	padding-left:33%;
 	padding-right:auto;
-	padding-top:100px;
+	10px
 	font-family: 'Nobile', sans-serif;
 
 }
@@ -310,3 +352,4 @@ video#bgvid {
 }
 
 }
+ */
